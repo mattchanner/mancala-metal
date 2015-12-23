@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Enabled borders -->
+	<color name="hollow_border_colour_player_one">#3D4DFF</color>
+	<color name="hollow_border_colour_player_two">#FF19D8</color>
+	<color name="hollow_border_colour_player_computer">#00b500</color>
+	
+	<!-- Disabled borders -->
+	<color name="hollow_disabled_border_colour_player_one">#96A2FF</color>
+	<color name="hollow_disabled_border_colour_player_two">#FF19D8</color>
+    <color name="hollow_disabled_border_colour_player_computer">#00b500</color>
+	
+	<!-- Enabled backgrounds -->
+	<color name="hollow_background_colour_player_one">#C1C6FF</color>
+	<color name="hollow_background_colour_player_two">#FFE0F9</color>
+	<color name="hollow_background_colour_player_computer">#b4f4ab</color>
+	
+	<!-- Highlighted backgrounds -->
+	<color name="hollow_background_colour_highlight_player_one">#8E8EFF</color>
+	<color name="hollow_background_colour_highlight_player_two">#FFC9F5</color>
+	<color name="hollow_background_colour_highlight_player_computer">#7ff46e</color>
+	
+	<!-- Disabled backgrounds -->
+    <color name="hollow_disabled_background_colour_highlight_player_one">#D8DAFF</color>
+    <color name="hollow_disabled_background_colour_highlight_player_two">#FFC9F5</color>
+    <color name="hollow_disabled_background_colour_highlight_player_computer">#D0F2CB</color>
+	
+	<!-- Enabled text colour -->
+	<color name="player_1_text_colour">#f6f6fb</color>
+	<color name="player_2_text_colour">#FF19D8</color>
+	<color name="computer_text_colour">#0ad90a</color>
+	
+	<!-- Disabled text colour -->
+    <color name="player_1_disabled_text_colour">#232BFF</color>
+    <color name="player_2_disabled_text_colour">#FF19D8</color>
+    <color name="computer_disabled_text_colour">#087F08</color>
+		
+	<color name="board_background_colour">#000000</color>
+    <color name="final_score_header_colour">#f4e650</color>
+    <color name="player_1_pit_text_colour">#232BFF</color>
+    <color name="player_2_pit_text_colour">#FF19D8</color>
+	<color name="computer_pit_text_colour">#087F08</color>
+</resources>

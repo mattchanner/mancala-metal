@@ -1,0 +1,43 @@
+10
+
+dir
+12
+svn://localhost/trunk/mancala/MancalaCore.Tests/src/com/axolotl/mancala
+svn://localhost
+
+
+
+2010-10-30T09:30:02.943584Z
+5
+matt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d40d7e7c-e3fe-11df-b909-d57309710fe8
+
+model
+dir
+
+strategy
+dir
+
+system
+dir
+
+game
+dir
+
+mocks
+dir
+

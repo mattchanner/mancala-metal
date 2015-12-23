@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="2dp"
+	android:id="@+id/final_score_layout_root">
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:padding="2dp">
+    
+        <ImageView
+            android:id="@+id/final_score_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_marginRight="10dp" />
+            
+        <TextView
+            android:id="@+id/final_score_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center" />
+       
+    </LinearLayout>
+    
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.8">
+        
+	    <TableLayout
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:stretchColumns="1">
+	        
+	        <TableRow>
+	        
+	            <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/final_score_header_colour"
+                    android:text="@string/final_score_player_header_text"
+                    android:gravity="right" />
+                    
+	            <TextView
+	                android:id="@+id/final_score_player_1_text"
+	                android:padding="2dp"
+	                android:textColor="@color/player_1_text_colour"
+	                android:text="@string/player_1_text"
+	                android:gravity="center" />
+	            <TextView
+	                android:id="@+id/final_score_player_2_text"
+	                android:padding="2dp"
+	                android:textColor="@color/player_2_text_colour"
+	                android:gravity="center" />
+	        </TableRow>
+	        
+            <TableRow>
+	        
+	            <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/final_score_header_colour"
+                    android:text="@string/final_score_store_header_text"
+                    android:gravity="right" />
+                    
+	            <TextView
+	                android:id="@+id/final_score_player_1_store"
+	                android:padding="2dp"
+	                android:textColor="@color/player_1_text_colour"
+	                android:gravity="center" />
+	            <TextView
+	                android:id="@+id/final_score_player_2_store"
+	                android:padding="2dp"
+	                android:textColor="@color/player_2_text_colour"
+	                android:gravity="center" />
+	        </TableRow>
+	        
+	        <TableRow>
+	             <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/final_score_header_colour"
+                    android:text="@string/final_score_remaining_header_text"
+                    android:gravity="right" />                    
+	            <TextView
+	                android:id="@+id/final_score_player_1_remaining"
+	                android:padding="2dp"
+	                android:textColor="@color/player_1_text_colour"
+	                android:gravity="center" />
+	            <TextView
+	                android:id="@+id/final_score_player_2_remaining"
+	                android:padding="2dp"
+	                android:textColor="@color/player_2_text_colour"
+	                android:gravity="center" />
+	        </TableRow>
+	        
+	        <View
+		        android:layout_height="2dip"
+		        android:background="#FF909090" />
+        
+	        <TableRow>
+	            <TextView
+                    android:padding="2dp"
+                    android:textColor="@color/final_score_header_colour"
+                    android:text="@string/final_score_total_header_text"
+                    android:gravity="right" />
+                    
+	            <TextView
+	                android:id="@+id/final_score_player_1_score"
+	                android:padding="2dp"
+	                android:textColor="@color/player_1_text_colour"
+	                android:gravity="center" />
+	            <TextView
+	                android:id="@+id/final_score_player_2_score"
+	                android:padding="2dp"
+	                android:textColor="@color/player_2_text_colour"
+	                android:gravity="center" />
+	        </TableRow>
+	        
+            <View
+                android:layout_height="2dip"
+                android:background="#FF909090" />	        
+	        
+	    </TableLayout>
+    
+    </ScrollView>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+    
+        <Button
+            android:id="@+id/final_score_new_single_player_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/start_button_1player_text" />
+            
+        <Button
+            android:id="@+id/final_score_new_two_player_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/start_button_2player_text" />
+       
+    </LinearLayout>
+	
+</LinearLayout>

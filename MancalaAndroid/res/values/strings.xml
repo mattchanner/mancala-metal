@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Mancala</string>
+    <string name="welcome_title">How to play Mancala</string>
+    <string name="start_button_1player_text">Player vs Computer</string>
+    <string name="start_button_2player_text">Player vs Player</string>
+    <string name="rules_button_text">Rules</string>
+    <string name="difficulty_dialog_title">Select difficulty level</string>
+    <string name="player_1_text">Player 1</string>
+    <string name="player_2_text_computer">Android</string>
+    <string name="player_2_text_human">Player 2</string>
+	<string name="your_turn_text">Your turn</string>
+	<string name="computers_turn_text">Android\'s turn</string>
+	<string name="player2_turn_text">Player 2\'s turn</string>
+	<string name="computer_wins_text">Android wins!</string>
+	<string name="player2_wins_text">Player 2 wins!</string>
+	<string name="player1_wins_text">Player 1 wins!</string>
+	<string name="you_win_text">You win!</string>
+	<string name="its_a_draw_text">It\'s a draw!</string>
+	<string name="capture_text">Capture!</string>
+	<string name="free_go_text">Free go!</string>
+	<string name="player_1_turn">Player 1\'s turn</string>
+	<string name="player_2_turn">Plaer 2\'s turn</string>
+	<string name="computers_turn">Plaer 2\'s turn</string>
+	<string name="new_game_text">New Game</string>
+	<string name="thinking_text">Thinking...</string>
+	<string name="final_score_dialog_title">Final Score</string>
+	<string name="final_score_player_header_text">Player:</string>
+	<string name="final_score_store_header_text">Store:</string>
+	<string name="final_score_remaining_header_text">Remaining:</string>
+	<string name="final_score_total_header_text">Total:</string>
+	<string name="rules">Each player "owns" the mancala on his right and the six small bowls closest to him. 
+Player 1 starts by scooping up all the stones from one of his small bowls (players may never start from a mancala or from the opponent\'s six bowls). 
+\n\n
+Player 1 drops one stone into the next bowl on the right, one stone into the second bowl on the right, continuing around the board (counterclockwise) until he has no more stones in his hand. 
+If Player 1 reaches his own mancala, he drops a stone into it. 
+\n\n
+Players do not drop stones into their opponents\' mancalas, they skip them and continue dropping stones, one at a time, from their hand until they run out of stones. 
+\n\n
+Players take turns moving. At the end of the game, players count the stones in their mancalas - the player with the most stones wins.
+\n\n
+If a player drops the last stone from his hand into his mancala, he gets to move again. If a player drops the last stone into one of the empty bowls on his side of the board, he takes that stone, plus all the stones in the opponent\'s bowl directly across from his bowl and places them in his mancala. 
+\n\n
+The game ends when one player no longer has stones in his small bowls. 
+\n\n
+The other player (who still has stones on his side) places all remaining stones into his own mancala (it is not necessarily an advantage to be the first player to empty the six bowls).</string>
+</resources>
